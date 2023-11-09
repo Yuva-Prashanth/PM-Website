@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Yuva-Prashanth/PM-Website.git/static/css/main.6b7f6858.css",
+    "main.js": "/Yuva-Prashanth/PM-Website.git/static/js/main.8ee50b35.js",
+    "static/media/9.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/9.1697bc9102719dee6e02.jpg",
+    "static/media/4.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/4.a14d0b08978f022ab920.jpg",
+    "static/media/7.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/7.0ce6a89656eab66cd78f.jpg",
+    "static/media/6.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/6.b0654141907177f83cf4.jpg",
+    "static/media/2.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/2.573b8e06663ca6c90b55.jpg",
+    "static/media/3.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/3.483b9da5a0a374216002.jpg",
+    "static/media/11.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/11.bd2350973d46d251835c.jpg",
+    "static/media/8.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/8.54529e0f1a41ef459c97.jpg",
+    "static/media/12.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/12.93f23add6ef636f6a266.jpg",
+    "static/media/10.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/10.009c8459ad30480cea84.jpg",
+    "static/media/5.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/5.8d78fdd0ef01ff094e53.jpg",
+    "static/media/13.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/13.4a8b4727b57a66be417b.jpg",
+    "static/media/home.png": "/Yuva-Prashanth/PM-Website.git/static/media/home.6c0d3a09914fbf880803.png",
+    "static/media/Marketing.png": "/Yuva-Prashanth/PM-Website.git/static/media/Marketing.bc7509c8a3ba354b6ab7.png",
+    "static/media/14.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/14.1c94632f0572c666d099.jpg",
+    "static/media/1.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/1.0a53e5751147d3b80825.jpg",
+    "static/media/15.jpg": "/Yuva-Prashanth/PM-Website.git/static/media/15.b36d61dee6449aff02a4.jpg",
+    "static/media/bars.svg": "/Yuva-Prashanth/PM-Website.git/static/media/bars.a2e35dd5aede7934d82e.svg",
+    "index.html": "/Yuva-Prashanth/PM-Website.git/index.html",
+    "main.6b7f6858.css.map": "/Yuva-Prashanth/PM-Website.git/static/css/main.6b7f6858.css.map",
+    "main.8ee50b35.js.map": "/Yuva-Prashanth/PM-Website.git/static/js/main.8ee50b35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b7f6858.css",
+    "static/js/main.8ee50b35.js"
+  ]
+}

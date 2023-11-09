@@ -1,0 +1,638 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Header style */
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffffc7;
+  position: fixed !important;
+  transition: all 0.3s ease-out 0s !important;
+  padding: 0.5rem 3rem !important;
+  font-size: 1.3rem !important;
+}
+.sticky {
+  transition: all 0.3s ease-out 0s !important;
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  backdrop-filter: blur(15px) !important;
+}
+.navbar-toggler {
+  position: relative !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.navbar-toggler span {
+  display: block !important;
+  background-color: #191919;
+  height: 4px !important;
+  width: 28px !important;
+  margin-top: 3px !important;
+  margin-bottom: 5px !important;
+  margin-right: 2rem !important;
+  transform: rotate(0deg) !important;
+  left: 0 !important;
+  opacity: 1 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+  transition: transform 0.35s ease-in-out !important;
+  transition: transform 0.35s ease-in-out !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute !important;
+  left: 12px !important;
+  top: 10px !important;
+  transform: rotate(135deg) !important;
+  opacity: 0.9 !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px !important;
+  visibility: hidden !important;
+  background-color: transparent !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute !important;
+  left: 12px !important;
+  top: 10px !important;
+  transform: rotate(-135deg) !important;
+  opacity: 0.9 !important;
+}
+.logo {
+  background-image: url(../Assets/logos.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-link {
+  color: #dc6767!important;
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  font-weight: 500 !important;
+  padding-right: 2rem !important;
+  padding-left: 1rem !important;
+  font-family: "Poppins";
+}
+
+.nav-link:hover {
+  color: #ffc436 !important;
+}
+.resumebtn {
+  margin-left: 30px;
+  border-radius: 25px;
+  padding: 0 25px;
+  color: #ffffff !important;
+  background-color: #1877f2 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 1rem 0rem !important;
+    background-color: transparent !important;
+  }
+  .navbar-nav .nav-item a::after {
+    display: none !important;
+  }
+  .responsive-navbar {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .resumebtn {
+    width: 150px;
+    display: block;
+    margin: 5px auto;
+    padding: 8px 5px;
+    letter-spacing: 1px;
+  }
+}
+
+/* Homepage style */
+
+.homepagebackground {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.Container {
+  padding-top: 60px;
+}
+
+.row {
+  padding-top: 40px;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.Typewriter__wrapper {
+  font-size: 2em !important;
+  color: #191919 !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #191919 !important;
+}
+.headtext {
+  padding-top: 120px;
+  font-size: 2.4em !important;
+  color: #dc6767!important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.nametext {
+  font-size: 2em !important;
+  color: #0c356a !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.imagedeveloper {
+  margin-top: 50px;
+  max-width: 500px;
+  height: 400px;
+  background-image: url(../Assets/home.png);
+  background-size: cover;
+  background-position: center;
+}
+.socailmediabtn {
+  margin-top: 2rem;
+  width: 90px;
+  height: 45px;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+}
+.socailmediabtn:hover {
+  background-color: antiquewhite;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  opacity: 0.6;
+}
+.icon {
+  font-size: 30px;
+  color: #dc6767;
+}
+
+.homespan {
+  width: 60%;
+  font-size: larger;
+  margin-top: -10vh;
+}
+
+.rightquote {
+  text-align: right;
+  padding: 1%;
+}
+
+@media (max-width: 767px) {
+  .homepagebackground {
+    width: 100%;
+    height: 100%;
+  }
+  .row {
+    padding-top: 50px;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 1.9em !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.2em !important;
+  }
+  .headtext {
+    padding-top: 100px;
+    font-size: 2em !important;
+  }
+  .nametext {
+    font-size: 2.4em !important;
+  }
+  .imagedeveloper {
+    margin-top: 50px;
+    max-width: 420px;
+    max-height: 400px;
+  }
+  .socailmediabtn {
+    margin-top: 1rem;
+  }
+  .homespan {
+    width: 100%;
+    font-size: medium;
+    margin-top: 0px;
+  }
+}
+
+/* Aboutpage style */
+
+.aboutpagebackground {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+
+  padding-top: 110px;
+}
+.textbackground {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+  margin-bottom: 3rem;
+}
+.aboutmetext {
+  font-size: 2em !important;
+  color: #dc6767!important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.aboutmetext span:hover {
+  display: inline-block;
+  transition: all 500ms;
+  color: #fff;
+  animation: vibrate 30ms linear infinite forwards;
+}
+.experiencehead {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translateX(-1px) translateY(1px);
+  }
+  100% {
+    transform: translateX(1px) translateY(-2px);
+  }
+}
+.aboutdetails {
+  font-size: 1.1em !important;
+  font-family: "Poppins";
+  text-align: justify;
+}
+.skilllist li {
+  letter-spacing: 1px;
+  font-family: "Poppins";
+}
+
+.skilllist {
+  font-weight: 600;
+  list-style-type: none;
+  font-family: "Poppins";
+}
+.skilllistrow {
+  padding-top: 0px;
+}
+
+.skilllist li:hover {
+  transform: scale(1.05);
+  transition: 5ms;
+  color: #664949;
+}
+.webimage {
+  max-width: 500px;
+  height: 350px;
+  background-image: url(../Assets/Marketing.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .aboutpagebackground {
+    width: 100%;
+    height: 100%;
+  }
+  .textbackground {
+    display: block;
+    margin: 0 auto;
+  }
+  .experiencehead h5 {
+    font-size: medium;
+  }
+  .skilllist li {
+    letter-spacing: 3px;
+  }
+}
+
+/* Projectpage style */
+
+.projectbackground {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+.project-section {
+  position: relative !important;
+  padding-top: 30px !important;
+}
+.project-card {
+  padding-top: 50px;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-text {
+  font-family: "Poppins";
+}
+.project-card-view {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+  color: #191919 !important;
+  background-color: #dc6767 !important;
+  border: transparent;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border-radius: 15px;
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+
+.card-img-top {
+  opacity: 0.8 !important;
+  border-radius: 10px !important;
+  height: 40%;
+}
+.viewbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Poppins";
+  margin: 0px 2%;
+}
+
+.buttonsflex {
+  display: flex;
+}
+
+.btn-primary {
+  color: #191919 !important;
+  background-color: transparent !important;
+  border-color: #191919 !important;
+}
+
+.btn-primary:hover {
+  color: #e8e8e8 !important;
+  background-color: transparent !important;
+  border-color: #e8e8e8 !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+  .project-section {
+    padding-top: 40px !important;
+  }
+}
+
+/* Contactpage Style */
+.contactbackground {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+
+  padding-top: 180px;
+}
+.contacthead {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.contactpara {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+  font-family: "Poppins";
+}
+.contactbtn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  border: solid 2px;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+.contactbtn:hover {
+  background-color: rgba(51, 51, 51, 0.2);
+}
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Poppins";
+}
+.copyright span {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+@media (max-width: 767px) {
+  .contactpara br {
+    display: none;
+  }
+  .contactbackground {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding-top: 110px;
+  }
+}
+
+.shine {
+  transition: all 0.2s ease-out 0s !important;
+}
+
+.shinesmile {
+  color: #ffc436;
+  font-size: large;
+}
+
+.shine:hover {
+  color: #ffc436;
+}
+
+/* Product Carousel--------------------------------------------------------------------- */
+
+.contactbackground {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-top: 180px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  z-index: 1;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 55px;
+}
+
+.slide {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  filter: drop-shadow(0px 0px 5px #555);
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+.arrow:hover {
+  cursor: default;
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.indicators {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 1rem;
+  top: 100%;
+}
+
+.indicator {
+  background-color: rgb(0, 149, 255);
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+}
+
+.indicator-inactive {
+  background-color: rgb(0, 0, 0);
+}
+
+.modalButton {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    padding-top: 70px;
+    height: 30%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel {
+    padding-top: 70px;
+    height: 30%;
+  }
+}
+
+.Workhead {
+  margin-top: -2rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 0.5rem 0rem;
+}
