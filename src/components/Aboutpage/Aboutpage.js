@@ -16,7 +16,7 @@ function Aboutpage() {
               <span>Experience</span>
             </h3>
             <div className="experiencehead">
-              <h5>FITSYNC</h5>
+              <h5>ELECTRIFIT</h5>
               <h5>Co-Founder & Product Manager</h5>
             </div>
             <p className="aboutdetails">
